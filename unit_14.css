@@ -31,9 +31,9 @@ main {
 
 .weatherApp {
   /*Box model*/
-  width: 30vw;
+  width: 22rem;
   height: auto;
-  border-radius: 1rem;
+  border-radius: 1.4rem;
   padding: 1rem;
   overflow: hidden;
   display: flex;
