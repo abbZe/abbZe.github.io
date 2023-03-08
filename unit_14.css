@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+/*font-family: 'Tilt Prism', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+/*font-family: 'Poiret One', cursive;*/
+
+* {
+  /*Box model*/
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+html {
+  /*Visual*/
+  background-color: #333;
+}
+
+img {
+  /*Box model*/
+  display: block;
+}
+
+main {
+  /*Box model*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.weatherApp {
+  /*Box model*/
+  width: 30vw;
+  height: auto;
+  border-radius: 1rem;
+  padding: 1rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  /*Visual*/
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+.citiesSelector {
+  /*Box model*/
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+select {
+  /*Box model*/
+  border-radius: 1rem;
+  padding: 0.3rem;
+
+  /*Typography*/
+  font-size: 1.3rem;
+}
+
+.propContainer {
+  /*Box model*/
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.3rem;
+}
+
+.propContainer p {
+  /*Typography*/
+  font-size: 1.1rem;
+}
+
+.propContainer .propTitle {
+  /*Typography*/
+  font-family: 'Poiret One', cursive;
+  font-size: 1.5rem;
+}
+
+hr {
+  /*Box model*/
+  width: 20%;
+  height: 0.1vh;
+  border: none;
+  background-color: black;
+  margin-block: 0.3rem;
+}
+
+.weatherApp__cityName {
+  /*Box model*/
+  margin-inline: auto;
+
+  /*Typography*/
+  font-family: 'Tilt Prism', cursive;
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.weatherApp__weatherImage {
+  /*Box model*/
+  display: flex;
+  justify-content: center;
+}
+
+.weather__App__temp {
+
+}
+
+div .weatherApp__state {
+  /*Box model*/
+  margin-inline: auto;
+
+  /*Typography*/
+  font-family: 'Poiret One', cursive;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.weatherApp__humidity {
+
+}
